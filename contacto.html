@@ -41,5 +41,45 @@ placeholder="Escribí tu consulta..."></textarea>
     <p>&copy; 2026 Isaias Ramses Casasola Duran</p>
     <p>Practicas Profesionalizantes II · Programador Junior · TP1</p>
 </footer>
+<style>
+    /* Borde verde cuando el campo es válido */
+
+input:valid {
+
+border: 2px solid #16A34A;
+
+background-color: #F0FFF4;
+
+}
+
+/* Borde rojo cuando el campo es inválido */
+
+input:invalid {
+
+border: 2px solid #DC2626;
+
+background-color: #FEF2F2;
+
+}
+
+/* Solo mostrar error DESPUÉS de que el usuario interactúe */
+
+input:not(:placeholder-shown):invalid {
+
+border: 2px solid #DC2626;
+
+}
+
+/* Estilizar el campo con foco */
+
+input:focus {
+
+outline: none;
+
+border-color: #2E75B6;
+
+box-shadow: 0 0 0 3px rgba(46, 117, 182, 0.2);
+}
+</style>
 </body>
 </html>
