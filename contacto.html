@@ -47,17 +47,15 @@ placeholder="Escribí tu consulta..."></textarea>
 <style>
     /* Borde verde cuando el campo es válido */
 
-input:valid {
-
-border: 2px solid #16A34A;
-
-background-color: #F0FFF4;
+input:not(:placeholder-shown):valid {
+    border: 2px solid #16A34A;
+    background-color: #f0fff4;
 
 }
 
 /* Borde rojo cuando el campo es inválido */
 
-input:invalid {
+input:not(:placeholder-shown):invalid {
 
 border: 2px solid #DC2626;
 
@@ -164,10 +162,10 @@ form {
     flex-direction: column;
     gap: 15px;
 }
-textarea:valid {
+textarea:not(:placeholder-shown):valid {
     border: 2px solid #16A34A
 }
-textarea:invalid {
+textarea:not(:placeholder-shown):invalid {
     border: 2px solid #DC2626
 }
 input, textarea {
