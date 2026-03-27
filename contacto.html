@@ -21,7 +21,7 @@
 <form action="#" method="POST">
 
 <label for="nombre">NOMBRE Y APELLIDO </label>
-<input type="text" id="nombre" name="nombre"
+<input type="text" id="nombre" name="nombre" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ ]+"
 required minlength="3" placeholder="Tu nombre">
 
 <label for="email">Email </label>
@@ -30,7 +30,7 @@ required placeholder="tunombre@email.com">
 
 <label for="telefono">Teléfono </label>
 <input type="tel" id="telefono" name="telefono"
-placeholder="387-8739129" pattern="[0-9]{3}-[0-9]{7}" required>
+placeholder="387-8739129" pattern="[0-9+\- ]{7,20}" required>
 
 <label for="mensaje">Mensaje </label>
 <textarea id="mensaje" name="mensaje" rows="5"
