@@ -1,209 +1,113 @@
-
 <!DOCTYPE html>
-<html lang = "es">
+<html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name = "viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<title>Formulario de Contacto</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
-    <h1>Formulario de Contacto</h1>
-</header>
 
-<nav>
-    <a href="index.html">Inicio</a>
+<div class="layout">
+    <nav class="navbar">
+    <div class="logo">ISAIAS</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html#Sobre-mi">Sobre mí</a></li>
+        <li><a href="Tarjetas.html">Prestaciones</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
 </nav>
-<main>
-        <!-- FORMULARIO DE CONTACTO -->
+    
+    <header>
+        <h1>Contacto</h1>
+        <p>Completá el formulario para comunicarte conmigo</p>
+    </header>
 
-<form action="#" method="POST">
+    
+    <main class="main">
 
-<label for="nombre">NOMBRE Y APELLIDO </label>
-<input type="text" id="nombre" name="nombre" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ ]+"
-required minlength="3" placeholder="Tu nombre">
+        <section>
+            <h2>Formulario de Contacto</h2>
 
-<label for="email">Email </label>
-<input type="email" id="email" name="email"
-required placeholder="tunombre@email.com">
+            <form action="#" method="POST">
 
-<label for="telefono">Teléfono </label>
-<input type="tel" id="telefono" name="telefono"
-placeholder="387-8739129" pattern="[0-9+\- ]{7,20}" required>
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" id="nombre" name="nombre" required minlength="3" placeholder="Tu nombre">
 
-<label for="mensaje">Mensaje </label>
-<textarea id="mensaje" name="mensaje" rows="5"
-required minlength="10"
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="tunombre@email.com">
 
-placeholder="Escribí tu consulta..."></textarea>
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="387-8739129" required>
 
-<label for="terminos">
-    <input type="checkbox" id="terminos" name="terminos" value="aceptado" required>
-    Acepto los terminos
-</label>
-<button type="submit">Enviar</button>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribí tu consulta..."></textarea>
 
-</form>
-</main>
-<footer>
+                <label>
+                    <input type="checkbox" required> Acepto los términos
+                </label>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
     <p>&copy; 2026 Isaias Ramses Casasola Duran</p>
-    <p>Practicas Profesionalizantes II · Programador Junior · TP1</p>
+     <p>Practicas Profesionalizantes II · Programador Junior · TP1</p>   
+    <div class="social">
+
+    <!-- GitHub -->
+    <a href="https://github.com/" target="_blank" class="icon-link">
+        <svg height="22" width="22" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 
+            0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
+            -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2
+            -3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 
+            0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 1.36.09 2 .27 
+            1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 
+            1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 
+            1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 
+            8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+    </a>
+
+    <!-- LinkedIn -->
+    <a href="https://linkedin.com/" target="_blank" class="icon-link">
+        <svg height="22" width="22" viewBox="0 0 448 512" fill="currentColor">
+            <path d="M100.28 448H7.4V148.9h92.88zm-46.44-340A53.79 
+            53.79 0 1 1 107.63 64a53.8 53.8 0 0 1-53.79 
+            44zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 
+            0-55.69 37.7-55.69 76.7V448h-92.78V148.9H250v40.8h1.3c12.3-23.3 
+            42.4-48.29 87.3-48.29 93.4 0 110.7 61.5 110.7 
+            141.3z"/>
+        </svg>
+    </a>
+
+    <!-- Gmail -->
+    <a href="mailto:tuemail@gmail.com" class="icon-link">
+        <svg height="22" width="22" viewBox="0 0 512 512" fill="currentColor">
+            <path d="M502.3 190.8L327.4 338.6c-20.9 17.5-51.8 17.5-72.6 
+            0L9.7 190.8C3.9 186.2 0 179.4 0 172v220c0 26.5 21.5 48 
+            48 48h416c26.5 0 48-21.5 48-48V172c0 7.4-3.9 14.2-9.7 
+            18.8zM256 295.9L480 112c-7.6-13.7-21.9-24-38.7-24H70.7c-16.9 
+            0-31.1 10.3-38.7 24l224 183.9z"/>
+        </svg>
+    </a>
+
+</div>
 </footer>
-        /* STILO DE LA PAGINA */
-<style>
-    /* Borde verde cuando el campo es válido */
 
-input:not(:placeholder-shown):valid {
-    border: 2px solid #16A34A;
-    background-color: #f0fff4;
+</div>
 
-}
-
-/* Borde rojo cuando el campo es inválido */
-
-input:not(:placeholder-shown):invalid {
-
-border: 2px solid #DC2626;
-
-background-color: #FEF2F2;
-
-}
-
-/* Solo mostrar error DESPUÉS de que el usuario interactúe */
-
-input:not(:placeholder-shown):invalid {
-
-border: 2px solid #DC2626;
-
-}
-
-/* Estilizar el campo con foco */
-
-input:focus {
-
-outline: none;
-
-border-color: #2E75B6;
-
-box-shadow: 0 0 0 3px rgba(46, 117, 182, 0.2);
-}
-
- /* === RESET BASICO ===*/
-*  {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
-}
-/* === TIPOGRAFIA ===*/
-body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333333;
-    background-color: rgba(102, 163, 255, 0.63);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-/* ===== HEADER ===== */
-
-header {
-
-background-color: #156dc0a6;
-
-color: white;
-
-text-align: center;
-
-padding: 1rem; 
-
-}
-
-/* ===== NAV ===== */
-
-nav {
-
-background-color: #154bc0fb;
-
-padding: 1rem;
-
-text-align: center;
-
-}
-
-nav a {
-
-color: #000000;
-}
-
-
-/* ===== FOOTER ===== */
-
-footer {
-
-background-color: #000000;
-
-color: white;
-
-text-align: center;
-
-padding: 1rem;
-
-}
-/* ===== MAIN ===== */
-
-main {
-
-flex: 1;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-form {
-    background: white;
-    padding: 2rem;
-    border-radius: 12px;
-    max-width: 600px;
-    width: 100%;
-    margin: 0 auto;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-textarea:not(:placeholder-shown):valid {
-    border: 2px solid #16A34A
-}
-textarea:not(:placeholder-shown):invalid {
-    border: 2px solid #DC2626
-}
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    border-radius: 6px;
-    border: 1px solid #CCC;
-}
-button {
-    background-color: #156dc0;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
-button:hover {
-    background-color: #0e4a87
-}
-label{
-    font-weight: bold;
-}
-h2 {
-    text-align: center;
-    margin-bottom:10px;
-}
-
-</style>
 </body>
 </html>

@@ -2,138 +2,139 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mi primer sitio</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-    <h1>ISAIAS RAMSES CASASOLA DURAN</h1>
-    <P>Estudiante de Analisis de Sistemas y Desarrollo de Software - Salta Capital, Argentina</P>
-</header>
-<nav>
-    <a href="#Sobre-mi">Sobre Mi</a>
-    <a href="#Intereses">Intereses</a>
-    <a href="contacto.html">Contactos</a>
-</nav>
-<main>
-    <section id="Sobre-mi">
-        <h2>Sobre Mi</h2>
-        <img src = "/Imagenes/foto.jpg.jpeg" alt="Foto de Isaias" width="300">
-        <p>Termine el secundario en la Tecnica de la India y cuento con el titulo tecnico en informatica profesional y personal. Actualmente me encuentro cursando el segundo año de Analisis de sistema y desarrollo de software </p>
-    </section>
-    <section id="Intereses">
-        <h2>Intereses</h2>
-        <ul>
-<li>Aprender Java</li>
-<li>Aprender PHP</li>
-<li>Desarrollar Software</li>
-<li>Aprender mas HTML</li>
-</ul>
-</main>
-<footer>
-    <p>&copy; 2026 Isaias Ramses Casasola Duran</p>
-    <p>Practicas Profesionalizantes II · Programador Junior · TP1</p>
-</footer>
-<style>
-    /* === RESET BASICO ===*/
-*  {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
-}
-/* === TIPOGRAFIA BASE ===*/
-body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333333;
-    background-color: rgba(102, 163, 255, 0.63)
-}
-/* ===== HEADER ===== */
+    <header>
+        <h1>ISAIAS RAMSES CASASOLA DURAN</h1>
+        <p>Estudiante de Analisis de Sistemas y Desarrollo de Software - Salta Capital, Argentina</p>
+    </header>
 
-header {
+<div class="layout">
 
-background-color: #156dc0a6;
+    <nav class="navbar">
+        <div class="logo">ISAIAS</div>
 
-color: white;
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#Sobre-mi">Sobre mí</a></li>
+            <li><a href="Tarjetas.html">Prestaciones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main class="main">
 
-text-align: center;
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Isaias Ramses Casasola Duran</h1>
+                <h2 class="hero-subtitle">Desarrollador Web Junior</h2>
+                <a href="contacto.html" class="hero-btn">Contactarme</a>
+            </div>
+        </section>
 
-padding: 1rem; 
+        <section id="Sobre-mi">
+            <h2>Sobre Mi</h2>
+            <img src="Imagenes/foto.jpg.jpeg" alt="Foto de Isaias">
+            <p>Termine el secundario en la Tecnica de la India y cuento con el título técnico en informática. Actualmente curso segundo año de Análisis de Sistemas y Desarrollo de Software.</p>
+        </section>
 
-}
+        <section id="Intereses">
+            <h2>Intereses</h2>
 
-/* ===== NAV ===== */
+            <div class="contenedor-tarjetas">
+                <div class="tarjeta">
+                    <h3>Lenguajes de Programación</h3>
+                    <ul>
+                        <li>Aprender Java</li>
+                        <li>Aprender PHP</li>
+                        <li>Desarrollar Software</li>
+                        <li>Aprender más HTML</li>
+                    </ul>
+                </div>
 
-nav {
+                <div class="tarjeta">
+                    <h3>Habilidades para aprender</h3>
+                    <ul>
+                        <li>Aprender reballing</li>
+                        <li>Aprender microsoldadura</li>
+                        <li>Recuperación de datos</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-background-color: #154bc0fb;
+        <section>
+            <h2>Prestaciones Realizadas</h2>
 
-padding: 1rem;
+            <div class="cards-section">
+                <div class="card">
+                    <h3><a href="Tarjetas.html">Reparaciones</a></h3>
+                    <p>Diagnóstico de fallos de componentes.</p>
+                </div>
 
-text-align: center;
+                <div class="card">
+                    <h3><a href="Tarjetas.html">Mantenimiento de Hardware</a></h3>
+                    <p>Optimización y limpieza de equipos.</p>
+                </div>
 
-}
+                <div class="card">
+                    <h3><a href="Tarjetas.html">Ensamblaje</a></h3>
+                    <p>Armado de PCs personalizadas.</p>
+                </div>
+            </div>
+        </section>
 
-nav a {
+        <section id="galeria" class="galeria">
+            <h2>Prestaciones</h2>
 
-color: #000000;
-}
+            <div class="galeria-grid">
+                <div class="galeria-card">
+                    <div class="icono">💻</div>
+                    <h3>Desarrollo web</h3>
+                    <p>Creación de sitios modernos y responsivos con HTML, CSS.</p>
+                </div>
 
+                <div class="galeria-card">
+                    <div class="icono">🛠️</div>
+                    <h3>Reparación</h3>
+                    <p>Diagnóstico, mantenimiento y reparación de computadoras.</p>
+                </div>
 
-/* ===== FOOTER ===== */
+                <div class="galeria-card">
+                    <div class="icono">⚙️</div>
+                    <h3>Armado de PC</h3>
+                    <p>Ensamblaje de PCs a medida.</p>
+                </div>
 
-footer {
+                <div class="galeria-card">
+                    <div class="icono">🔧</div>
+                    <h3>Mantenimiento de Hardware</h3>
+                    <p>Limpieza, cambio de pasta térmica y optimización.</p>
+                </div>
+            </div>
+        </section>
 
-background-color: #000000;
+    </main>
 
-color: white;
+    <footer class="footer">
+        <p>&copy; 2026 Isaias Ramses Casasola Duran</p>
+        <p>Prácticas Profesionalizantes II · Programador Junior · TP1</p>
 
-text-align: center;
+        <div class="social">
+            <a href="https://github.com/" target="_blank" class="icon-link">GitHub</a>
+            <a href="https://linkedin.com/" target="_blank" class="icon-link">LinkedIn</a>
+            <a href="mailto:tuemail@gmail.com" class="icon-link">Gmail</a>
+        </div>
+    </footer>
 
-padding: 1rem;
+</div>
 
-}
-/* ===== MAIN ===== */
-
-main {
-
-max-width: 900px;
-
-margin: 0 auto;
-
-padding: 2rem;
-
-}
-
-/* ===== SECCIONES ===== */
-
-section {
-
-background-color: rgb(255, 255, 255);
-
-border-radius: 8px; 
-
-padding: 2rem;
-
-margin-bottom: 2rem;
-
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0); 
-
-}
-ul, ol {
-
-padding-left: 2rem;
-
-margin-bottom: 1rem;
-
-}
-img{
-display:block;
-margin:15px auto;
-border-radius:10px;
-box-shadow:0 4px 10px rgba(0,0,0,0.2);
-}
-</style>
+</body>
 </html>
