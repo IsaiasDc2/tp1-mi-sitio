@@ -411,3 +411,77 @@ form button:hover {
     background: var(--primary-dark);
     transform: translateY(-3px);
 }
+@media (max-width: 767px) {
+
+    .navbar {
+        width: 100%;
+        margin: 0;
+        padding: 0 1rem;
+    }
+
+    .hero {
+        padding: 2rem 1rem;
+        min-height: 55vh;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    #Sobre-mi img {
+        width: 160px;
+        max-width: 160px;
+    }
+
+    .cards-section,
+    .contenedor-tarjetas {
+        justify-content: center;
+    }
+
+    .card, 
+    .tarjeta {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .cards-section img,
+    .galeria-card img {
+        max-width: 180px;
+        height: auto;
+        margin: 0 auto 1rem;
+    }
+
+    .contenedor-fotos img {
+        width: 100%;
+        max-width: 330px;
+        height: auto;
+        margin: 0 auto 15px;
+        display: block;
+    }
+    .contact-wrapper {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    form {
+        width: 100%;
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 1.5rem;
+    }
+
+    section {
+        padding: 1.4rem;
+    }
+
+    header {
+        padding: 1.4rem;
+        text-align: center;
+    }
+
+    html, body {
+        overflow-x: hidden;
+    }
+}
