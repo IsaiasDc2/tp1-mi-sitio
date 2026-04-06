@@ -485,3 +485,95 @@ form button:hover {
         overflow-x: hidden;
     }
 }
+/* =======================================================
+   FIX COMPLETO PARA CELULAR (layout, imágenes y centrado)
+========================================================= */
+@media (max-width: 767px) {
+
+    /* Quitar comportamiento problemático del nav */
+    .navbar {
+        width: 100%;
+        margin: 0;
+        padding: 0 1rem;
+    }
+
+    /* HERO más compacto */
+    .hero {
+        padding: 2rem 1rem;
+        min-height: 55vh;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    /* SOBRE MI – IMAGEN CHICA */
+    #Sobre-mi img {
+        width: 160px !important;
+        max-width: 160px !important;
+    }
+
+    /* TARJETAS CENTRADAS */
+    .cards-section,
+    .contenedor-tarjetas {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .card, 
+    .tarjeta {
+        max-width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    
+    img {
+        max-width: 100% !important;
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+        margin: 0 auto 1.2rem;
+    }
+
+
+    .cards-section img,
+    .galeria-card img {
+        max-width: 180px !important;
+        height: auto !important;
+    }
+
+
+    .contenedor-fotos img {
+        max-width: 330px !important;
+        width: 100%;
+    }
+
+    .contact-wrapper {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .contact-wrapper form,
+    form {
+        max-width: 92%;
+        width: 100%;
+        padding: 1.6rem;
+        margin: 0 auto;
+    }
+    section {
+        padding: 1.4rem;
+    }
+
+    header {
+        padding: 1.4rem;
+        text-align: center;
+    }
+
+    html, body {
+        overflow-x: hidden !important;
+    }
+}
