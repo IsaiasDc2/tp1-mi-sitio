@@ -112,7 +112,7 @@ header {
     border-bottom: 1px solid #e5e7eb;
     box-shadow: var(--shadow);
     border-radius: 0 0 12px 12px;
-    text-align: center; /* NUEVO */
+    text-align: center; 
 }
 
 
@@ -178,8 +178,8 @@ section h2 {
 .cards-section,
 .contenedor-tarjetas {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));  
-    gap: var(--space-block);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  
+    gap: 10px;
 }
 
 .card, .tarjeta {
