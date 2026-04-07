@@ -71,7 +71,7 @@ header  { grid-area: header; }
     justify-content: space-between;
     align-items: center;
 
-    padding: 0 2rem;
+    padding: 1rem;
     position: sticky;
     top: 0;
     z-index: 99;
@@ -290,7 +290,7 @@ img {
     padding: 2rem;
     border-radius: var(--radius);
     max-width: 600px;
-    margin: 0 auto;      /* este es el centro real */
+    margin: 0 auto;      
     box-shadow: var(--shadow);
 
     display: flex;
@@ -396,14 +396,13 @@ form button:hover {
     background: var(--primary-dark);
     transform: translateY(-3px);
 }
-/* =======================================================
-   FIX COMPLETO PARA CELULAR (layout, imágenes y centrado)
-========================================================= */
+
 @media (max-width: 767px) {
     .navbar {
-        width: 60%;
+        width: 100%;
         margin: 0;
         padding: 0 1rem;
+        flex-direction: column;
     }
 
     /* HERO más compacto */
@@ -416,13 +415,11 @@ form button:hover {
         font-size: 2.2rem;
     }
 
-    /* SOBRE MI – IMAGEN CHICA */
     #Sobre-mi img {
         width: 160px !important;
         max-width: 160px !important;
     }
 
-    /* TARJETAS CENTRADAS */
     .cards-section,
     .contenedor-tarjetas {
         grid-template-columns: 1fr;
@@ -480,6 +477,9 @@ form button:hover {
     header {
         padding: 1.4rem;
         text-align: center;
+    }
+    .nav-links {
+        display: none;
     }
 
     html, body {
