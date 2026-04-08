@@ -6,4 +6,7 @@ se agrego distintas secciones como puede ser sobre mi, Intereses, Proyectos, Hab
 por otro lado hay un apartado de contacto y en proyectos se encuentran distintas imagenes 
 
 Mi Sitio web 
+https://isaiasdc2.github.io/tp1-mi-sitio/
 
+Imagenes de visualizacion
+![imagen alt()]
