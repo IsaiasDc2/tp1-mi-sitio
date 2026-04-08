@@ -744,3 +744,10 @@ ul {
     text-align: center;
     margin-top: 20px;
 }
+.layout {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+}
