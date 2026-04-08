@@ -12,8 +12,8 @@
     --color-warning: #F59E0B;       
 
     --font-body: 'Segoe UI', 'Roboto', Arial, sans-serif;
-    --font-heading: 'Georgia', 'Times New Roman', serif;
-    --font-code: 'Consolas', 'Courier New', monospace;
+    --font-heading: 'Playfair Display', serif;
+    --font-code: 'Source Code Pro', monospace;
 
     --spacing-xs: 0.25rem;   
     --spacing-sm: 0.5rem;    
@@ -31,6 +31,15 @@
 
     
     --transition: all 0.3s ease;
+}
+
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 
@@ -693,12 +702,12 @@ ul {
     padding: 20px;
 }
 .gallery-container img {
-    width: auto;           /* 🔥 en vez de 100% */
+    width: auto;           
     max-width: 500px;
     height: auto;
 
     display: block;
-    margin: 0 auto;        /* 🔥 centra real */
+    margin: 0 auto;        
     
     background-color: #1e293b;
     padding: 10px;
