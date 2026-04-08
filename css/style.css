@@ -691,6 +691,19 @@ ul {
         margin-top: var(--spacing-sm);
     }
 }
+@media (min-width: 1024px) {
+    .section {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .section {
+        max-width: 1400px;
+    }
+}
 .gallery-container {
     display: grid;
     grid-template-columns: 1fr;
