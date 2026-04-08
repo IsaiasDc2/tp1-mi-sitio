@@ -12,4 +12,7 @@ Imagenes de visualizacion en desktop
 ![imagen alt](https://github.com/IsaiasDc2/tp1-mi-sitio/blob/af0591197367624c8a7de3cf4d8dd3076b104d81/visualizacion/Captura%20de%20pantalla%202026-04-08%20124751.png)
 ![imagen alt](https://github.com/IsaiasDc2/tp1-mi-sitio/blob/1d9824368b157524911e8d2a477c865b9eda05de/visualizacion/Captura%20de%20pantalla%202026-04-08%20124809.png)
 ![imagen alt](https://github.com/IsaiasDc2/tp1-mi-sitio/blob/aaacb781534a582567ab5c7327315800f59ee2e7/visualizacion/Captura%20de%20pantalla%202026-04-08%20124916.png)
+![imagen alt](https://github.com/IsaiasDc2/tp1-mi-sitio/blob/46cb9d384c9b844c9077a610224d4a145fbdbb39/visualizacion/Captura%20de%20pantalla%202026-04-08%20124939.png)
+
+Imagen de visualizacion en dispositivo movil
 ![imagen alt]()
