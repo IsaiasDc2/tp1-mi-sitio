@@ -15,4 +15,10 @@ Imagenes de visualizacion en desktop
 ![imagen alt](https://github.com/IsaiasDc2/tp1-mi-sitio/blob/46cb9d384c9b844c9077a610224d4a145fbdbb39/visualizacion/Captura%20de%20pantalla%202026-04-08%20124939.png)
 
 Imagen de visualizacion en dispositivo movil
+![imagen alt](https://github.com/IsaiasDc2/tp1-mi-sitio/blob/6d838a25514f83eebaded04f9c5cc03aa645cc0b/visualizacion/WhatsApp%20Image%202026-04-08%20at%2011.52.40%20AM%20(1).jpeg)
+![imagen alt]()
+![imagen alt]()
+![imagen alt]()
+![imagen alt]()
+![imagen alt]()
 ![imagen alt]()
