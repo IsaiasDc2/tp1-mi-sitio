@@ -19,6 +19,6 @@ Imagen de visualizacion en dispositivo movil
 ![imagen alt](https://github.com/IsaiasDc2/tp1-mi-sitio/blob/09cada921414d0234a57ae0caf3986e81e871026/visualizacion/WhatsApp%20Image%202026-04-08%20at%2011.52.40%20AM%20(2).jpeg)
 ![imagen alt](https://github.com/IsaiasDc2/tp1-mi-sitio/blob/b7f2f67ca816fa6a808d36362adf632339c12390/visualizacion/WhatsApp%20Image%202026-04-08%20at%2011.52.40%20AM%20(3).jpeg)
 ![imagen alt](https://github.com/IsaiasDc2/tp1-mi-sitio/blob/d7e89577a0e59531acd7ef913fcda7ced2b57773/visualizacion/WhatsApp%20Image%202026-04-08%20at%2011.52.41%20AM%20(1).jpeg)
-![imagen alt]()
+![imagen alt](https://github.com/IsaiasDc2/tp1-mi-sitio/blob/bf6e16d73adfacd5d2fde1e7810b6e8827e5fd53/visualizacion/WhatsApp%20Image%202026-04-08%20at%2011.52.41%20AM%20(1).jpeg)
 ![imagen alt]()
 ![imagen alt]()
