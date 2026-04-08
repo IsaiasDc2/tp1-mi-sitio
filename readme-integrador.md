@@ -21,4 +21,10 @@ Imagen de visualizacion en dispositivo movil
 ![imagen alt](https://github.com/IsaiasDc2/tp1-mi-sitio/blob/d7e89577a0e59531acd7ef913fcda7ced2b57773/visualizacion/WhatsApp%20Image%202026-04-08%20at%2011.52.41%20AM%20(1).jpeg)
 ![imagen alt](https://github.com/IsaiasDc2/tp1-mi-sitio/blob/bf6e16d73adfacd5d2fde1e7810b6e8827e5fd53/visualizacion/WhatsApp%20Image%202026-04-08%20at%2011.52.41%20AM%20(1).jpeg)
 ![imagen alt](https://github.com/IsaiasDc2/tp1-mi-sitio/blob/4582725124f16a6433ce9ce2fd123de5b8f75711/visualizacion/WhatsApp%20Image%202026-04-08%20at%2012.44.47%20PM%20(1).jpeg)
-![imagen alt]()
+![imagen alt](https://github.com/IsaiasDc2/tp1-mi-sitio/blob/e31d9e5e4d2bf7b308c6b65af49e63fb3f540c1e/visualizacion/WhatsApp%20Image%202026-04-08%20at%2012.44.47%20PM.jpeg)
+Tecnologias Usadas
+●HTML5
+●CSS3
+●FlexBox
+●CSS Grid
+
