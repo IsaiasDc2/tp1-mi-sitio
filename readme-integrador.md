@@ -9,4 +9,4 @@ Mi Sitio web
 https://isaiasdc2.github.io/tp1-mi-sitio/
 
 Imagenes de visualizacion
-![imagen alt(https://github.com/IsaiasDc2/tp1-mi-sitio/blob/af0591197367624c8a7de3cf4d8dd3076b104d81/visualizacion/Captura%20de%20pantalla%202026-04-08%20124751.png)]
+![imagen alt](https://github.com/IsaiasDc2/tp1-mi-sitio/blob/af0591197367624c8a7de3cf4d8dd3076b104d81/visualizacion/Captura%20de%20pantalla%202026-04-08%20124751.png)
