@@ -24,6 +24,7 @@ Imagen de visualizacion en dispositivo movil
 ![imagen alt](https://github.com/IsaiasDc2/tp1-mi-sitio/blob/e31d9e5e4d2bf7b308c6b65af49e63fb3f540c1e/visualizacion/WhatsApp%20Image%202026-04-08%20at%2012.44.47%20PM.jpeg)
 
 Tecnologias Usadas
+
 ●HTML5
 
 ●CSS3
